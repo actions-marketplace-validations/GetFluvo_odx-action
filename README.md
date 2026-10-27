@@ -67,7 +67,7 @@ jobs:
 With `apply: auto`, the default, a scheduled run applies (`odx bot run
 --apply`) and a `pull_request` run only plans. The identity, the token
 scopes and what the bot may write are described in
-[Running the bot nightly](https://odx.readthedocs.io/en/latest/cli.html#running-the-bot-nightly).
+[The nightly bot](https://odx.readthedocs.io/en/latest/ci.html#the-nightly-bot).
 
 On Forgejo the workflow lives in `.forgejo/workflows` and uses
 `https://github.com/getfluvo/odx-action@v1`, with the token of a bot account
